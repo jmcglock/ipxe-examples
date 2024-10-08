@@ -12,7 +12,7 @@ declare -a DEVICES=(
 )
 
 # Custom RAID device name
-RAID_DEVICE_NAME="raid_custom"
+RAID_DEVICE_NAME="md69"
 
 echo "Stopping any existing RAID $RAID_DEVICE_NAME"
 mdadm --stop /dev/$RAID_DEVICE_NAME
