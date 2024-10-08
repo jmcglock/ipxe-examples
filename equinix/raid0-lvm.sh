@@ -10,7 +10,7 @@ declare -a DEVICES=(
   "/dev/nvme3n1"  
 )
 # RAID device name
-RAID_DEVICE_ID="md127"
+RAID_DEVICE_ID="md69"
 echo "Stopping any existing RAID $RAID_DEVICE_ID"
 mdadm --stop /dev/$RAID_DEVICE_ID
 echo "Creating RAID 0 array $RAID_DEVICE_ID"
